@@ -38,11 +38,83 @@
                     </li>
                 </ul>                           
             </address>
+
+            <button class="burger-btn" type="button">
+                <svg class="burger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
        </div>
-                    
+
+          <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close">
+                    <svg class="mobile-menu-close-icon" widht="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1"
+                    </svg>
+
+                </button>
+                <nav class="mobile-menu-nav"> 
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="./index.html">Studio</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="">Portfolio</a></li>
+                    <li class="mobile-nav-item"><a class="mobile-nav-link" href="">Contacts</a></li>                
+                </ul>
+                </nav>
+                <address class="mobile-menu-contacts">
+                <ul class="mobile-contact-list">
+                    <li class="mobile-contact-item">
+                        <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="mobile-contact-item">
+                        <a class="mobile-contact-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>                
+            </address>
+                <div>
+                    <ul class="mobile-soc-list">
+                        <li class="mobile-team-soc">
+                            <a class="networks" href="#">
+                                <svg class="icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-instagram">                               
+                                    </use>                             
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-team-soc">
+                            <a class="networks" href="#">
+                                <svg class="icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-twitter">                               
+                                    </use>                             
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-team-soc">
+                            <a class="networks" href="#">
+                                <svg class="icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-facebook">                               
+                                    </use>                             
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-team-soc">
+                            <a class="networks" href="#">
+                                <svg class="icons" width="16" height="16">
+                                    <use href="./images/icons.svg#icon-linkedin">                               
+                                    </use>                             
+                                </svg>
+                            </a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+          </div>         
    </header>
 
     <main>
+
+                            <!-- SECTION ONE -->
+
         <section class="section-one">
             <div class="container">
                 <h1 class="header-name">Effective Solutions
@@ -50,8 +122,10 @@
                    <button class="button-order-service" type="button">Order Service</button>
             </div>
         </section>
+
+                          <!-- SECTION TWO -->
         
-        <section class="section-two">
+        <section class="two">
 
             <div class="container">
                 <h2 class="visually-hidden">Features</h2> 
@@ -106,8 +180,10 @@
             </div>
                                        
         </section>
-            <!-- Our Team -->
-        <section class="section-three"> 
+
+                              <!-- Our Team -->
+
+        <section class="hidden"> 
             <div class="container">
                 <h2 class="header-section-three">Our Team</h2>
             <ul class="team-list">
@@ -279,8 +355,9 @@
             </div>
         </section>
         
-         <!-- Our Portfolio -->
-         <section class="section-four">
+                         <!-- Our Portfolio -->
+
+         <section class="hidden">
             <div class="container">
                 <h2 class="header-section-four">Our Portfolio</h2>
             <ul class="portfolio-list">
@@ -357,7 +434,9 @@
         
     </main>
 
-    <footer class="page-footer">
+                           <!-- FOOTER -->
+
+    <footer class="hidden">
        <div class="footer-container container">
         <div class="block-one">
             <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>       
@@ -421,7 +500,9 @@
             </div>
         </footer>
 
-        <div class="backdrop is-open">        
+                            <!-- MODAL -->
+
+        <div class="hidden">        
             <div class="modal">
                  <button class="popup-close" type="button">
                  <svg class="close-icon" width="8" height="8">
