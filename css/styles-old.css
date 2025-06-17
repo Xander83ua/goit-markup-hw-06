@@ -92,7 +92,7 @@ cursor: pointer;
     padding: 120px 0;
 }
 
-.visually {
+.visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
