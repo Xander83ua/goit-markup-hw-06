@@ -1061,58 +1061,58 @@ color: #434455;
         /* Footer */
 
 
-      .footer {
-    background-color: #2e2f42;
-    
-height: 664px;
-margin-top: 96px;
- 
-}  
- .block-one {
+ .footer {
+     background-color: #2e2f42;
+   padding: 96px 0;
 
-align-items: center;
- }
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-    display: inline-block;
-
+}
+.footer-container {
+       display: flex;
+ flex-direction: column;
+  gap: 72px;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.footer-logo {
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+  text-align: center;
 }
 .logo-part {
     color: #f4f4fd;
 }
-.footer-logo {
+/* .footer-logo {
     display: inline-block;        
-    margin-bottom: 16px;
-}
+    text-align: center;
+} */
 .footer-text {
-    font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-/* line-height: 24px; */ 
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-height: 72px;
-width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 288px;
 }
-.footer-container {
-    display: flex;
-    align-items: center;
+.soc-container {
+      display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .social-media {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
 }
 .social-media-list {
     display: flex;
@@ -1141,9 +1141,7 @@ width: 264px;
 .foot-networks:focus {
     background-color: #31d0aa;
 }
-.subscribing {
-    margin-left: auto;    
-}
+
 
 .subscribe {
     margin-bottom: 16px;
@@ -1155,54 +1153,45 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #fff;
+text-align: center;
 }
 .form {
     display: flex;
 gap: 24px;
 }
 .input_field {
-   border: 1px solid #fff;
-border-radius: 4px;
-width: 264px;
-height: 40px;
-background-color: transparent;
-font-size: 12px; 
-line-height: 2;
-letter-spacing: 0.04em;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-color: #fff;
-padding-left: 16px;
+ width: 288px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
 }
 .input_field::placeholder {
-    font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 12px;
-
-/* line-height: 24px; */ 
-line-height: 200%;
-letter-spacing: 0.04em;
-color: #fff;
+color: #ffffff;
 }
 
 .subscribe-button {
-    position: relative;
-    border-radius: 4px;
-padding: 8px 24px;
-min-width: 165px;
-height: 40px;
-font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px; 
-line-height: 150%;
-letter-spacing: 0.04em;
-text-align: center;
-color: #fff;
-background-color: #4D5AE5;
-display: flex;
-justify-content: center;
-align-items: center;
-border: none;
-cursor: pointer;
+   min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
     .subscribe-button subscribe-icon {
@@ -1224,11 +1213,21 @@ cursor: pointer;
  max-width: 768px;
    margin: 0 auto;
  background-color: #2e2f42;
-
-    }
+     flex-wrap: wrap;
+ flex-direction: column;
+}
     .footer-logo {
     display: inline-block;        
     margin-bottom: 16px;
     align-items: center;
 }
+.block-one {
+    width: 264px;
+height: 112px;
 }
+.soc-container {
+    width: 208px;
+height: 80px;
+}
+    }
+
