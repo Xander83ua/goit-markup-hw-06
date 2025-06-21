@@ -503,14 +503,25 @@ cursor: pointer;
 .feature-list:not(:last-child) {
 padding-bottom: 72px;
 }
+.feature-name {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
 
-
+/* line-height: 40px; */ 
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
 
 
 .feature-description {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
-font-size: 16px; 
+font-size: 16px;
+
+/* line-height: 24px; */ 
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
@@ -793,6 +804,9 @@ color: #2e2f42;
 .section-four {
     padding: 120px 0 120px 0;
 }
+.our-portfolio {
+    margin-top: 96px;
+}
 .header-section-four {
     font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -1049,19 +1063,16 @@ color: #434455;
 
       .footer {
     background-color: #2e2f42;
-    width: 320px;
+    
 height: 664px;
 margin-top: 96px;
  
 }  
  .block-one {
-    width: 288px;
-height: 112px;
+
+align-items: center;
  }
- .logo footer-logo {
-    width: 116px;
-height: 24px;
- }
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -1070,7 +1081,8 @@ height: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    display: inline-block
+    display: inline-block;
+
 }
 .logo-part {
     color: #f4f4fd;
@@ -1203,4 +1215,20 @@ cursor: pointer;
 
 .subscribe-icon {
     margin-left: 16px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .footer {
+ max-width: 768px;
+   margin: 0 auto;
+ background-color: #2e2f42;
+
+    }
+    .footer-logo {
+    display: inline-block;        
+    margin-bottom: 16px;
+    align-items: center;
+}
 }
